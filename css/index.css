@@ -1,0 +1,23 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+
+/* Remove default margin from body
+set background color to default */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(238, 238, 238, 1);
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
